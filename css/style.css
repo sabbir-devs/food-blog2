@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+.orange{
+    color: orange;
+}
+.btn{
+    padding: 15px 25px;
+    background: linear-gradient(90deg, rgb(255, 123, 0), rgb(255, 153, 0), rgb(255, 208, 0));
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.text-p{
+    font-size: 22px;
+    color: rgba(107, 97, 97, 0.842);
+}
+.container{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+/*--header section start--*/
+header .container{
+    display: flex;
+    width: 90%;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header .container .logo-left{
+    width: 50%;
+}
+header .container .logo-left h1{
+    font-size: 55px;
+    color: rgb(88, 88, 88);
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+header .container .logo-right{
+    width: 50%;
+    justify-content: flex-end;
+}
+header .container .logo-right img{
+    width: 100%;
+}
+/*--header section end--*/
+/*----About section start----*/
+#about-main-section{
+    background: url('../image/shapes/Frame59.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#about-main-section .container{
+
+}
+#about-main-section .container .logo-left{
+    position: absolute;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+#about-main-section .container .logo-left img{
+    position: absolute;
+    width: 267px;
+}
+#about-main-section .container .logo-right{
+    width: 40%;
+    margin-left: 50%;
+    align-items: center;
+    padding: 40px;
+    padding-top:130px;
+}
+#about-main-section .container .logo-right h2{
+    font-size: 55px;
+    color: rgb(88, 88, 88);
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+#about-main-section .container .logo-right p{
+    font-size: 20px;
+    color: rgb(126, 126, 126);
+}
+/*----About section start----*/
+/*----food section start----*/
+#food-main-section{
+    display: grid; 
+    justify-items: center;
+    margin-bottom: 10%;
+}
+#food-main-section .text-aria{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#food-main-section .text-aria h1{
+    font-size: 50px;
+    color: #868686;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+#food-main-section .text-aria p{
+    color: #474747;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#food-main-section .container{
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+#food-main-section .container .card{
+    width: 29%;
+    box-shadow: 0 0 18px -5px black;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+#food-main-section .container .card .card-body{
+    padding: 30px;
+}
+#food-main-section .container .card .card-body h3{
+    font-size: 30px;
+    margin-top: -33px;
+}
+#food-main-section .container .card .card-body p{
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 5px;
+    color: rgb(136, 136, 136);
+}
+#food-main-section .container .card img{
+    width: 100%;
+    padding: 30px;
+    border-radius: 48px;
+}
+/*----food section start----*/
+/*----user section start----*/
+#users{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    color: rgb(85, 85, 85);
+}
+#users .container{
+    box-shadow: 0 0 5px 0px #000000a8;
+    border-radius: 10px;
+    grid-gap: 8%;
+}
+#users .followers{
+    padding: 40px;
+    text-align: center;
+}
+#users .followers h1{
+    font-size: 50px;
+    padding:5%;
+    font-weight: bolder;
+}
+#users .followers p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 6%;
+}
+/*----user section end----*/
+/*----Footer section start----*/
+#footer{
+    text-align: center;
+    background: #000;
+    color: rgb(173, 173, 173);
+}
+#footer .container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#footer.footer-section{
+    padding: 30px;
+}
+#footer .footer-section .food{
+    font-size: 55px;
+    background: linear-gradient(90deg, rgb(255, 123, 0), rgb(255, 153, 0), rgb(255, 208, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#footer .footer-section h1{
+    margin-bottom: 5%;
+}
+#footer .footer-section p{
+    margin-bottom: 8%;
+}
+
+
+
+
+
+
